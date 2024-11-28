@@ -1,18 +1,20 @@
+from utils import history_teller
 import streamlit as st
 from openai import OpenAI
+import datetime
+import os
 from dotenv import load_dotenv
 import os
-from utils import history_teller
-
-#load_dotenv(override=True)
-
-# Access the API key
-#api_key = os.getenv("OPENAI_API_KEY")
-
 
 # Load environment variables from .env file
+load_dotenv()
 
-#client = OpenAI(api_key=api_key)
+# Access the API key
+api_key = os.getenv("OPENAI_API_KEY")
+
+
+
+client = OpenAI(api_key=api_key)
 
 # Set page configuration
 st.set_page_config(page_title="Türkiye'yi Keşfet", page_icon="🌍", layout="centered")

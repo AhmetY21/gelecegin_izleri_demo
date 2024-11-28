@@ -1,6 +1,6 @@
 import streamlit as st
 from openai import OpenAI
-import openai
+#import openai
 import datetime
 import os
 from dotenv import load_dotenv
@@ -13,13 +13,13 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 
 
-openai.api_key = api_key
+#openai.api_key = api_key
 
 client = OpenAI(api_key=api_key)
 
 
 def history_teller(city):
-    response = openai.client.chat.completions.create(
+    response = client.chat.completions.create(
         model='gpt-4o-mini',
         messages=[
             {

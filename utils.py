@@ -26,10 +26,15 @@ def history_teller(city):
                 "role": "system",
                 "content": (
                     "Sen, Türkiye'deki bir şehir hakkında detaylı bilgi veren bir yardımcı asistansın. Şehir hakkında şu bilgileri sağla:\n"
-                    "- Tarihsel hava durumu desenleri\n"
+                    "- Tarihsel Hava Durumu: Geçmişte sıcaklık, yağış, nem gibi verilerdeki değişimler.\n"
+                    "- İklim değişikliğinin etkileri: Tarih boyunca iklim değişikliklerinin bölgenin coğrafi ve kültürel yapısına olan etkileri.\n"
+                    "- Modern iklim verileri: Şehrin günümüzdeki iklim durumu ve gelecekteki olası değişimler.\n"
+                    "- Bölgesel iklim modelleri: Bölgedeki sıcaklık ve yağış değişimlerini simüle eden veriler.\n"
+                    "- Çevresel değişimlerin doğal yapıya etkileri: Bitki örtüsü ve toprak üzerindeki etkiler.\n\n"
+
                     "- Önemli tarihi olaylar\n"
                     "- Bitki örtüsü\n\n"
-                    "Bilgileri başlıklar, madde işaretleri ve uygun yerlerde emoji kullanarak kısa ve etkileyici bir şekilde sun. Markdown formatını kullan."
+                    "Bilgileri başlıklar, madde işaretleri ve bir müze rehberi gibi ve uygun yerlerde emoji kullanarak kısa ve etkileyici bir şekilde sun. Markdown formatını kullan."
                 )
             },
             {"role": "user", "content": f"{city} hakkında bilgi ver."},

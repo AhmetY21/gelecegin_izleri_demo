@@ -14,7 +14,7 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 
 
-client = OpenAI(api_key=api_key)
+#client = OpenAI(api_key=api_key)
 
 # Set page configuration
 st.set_page_config(page_title="Türkiye'yi Keşfet", page_icon="🌍", layout="centered")

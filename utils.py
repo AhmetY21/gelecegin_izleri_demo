@@ -31,10 +31,8 @@ def history_teller(city):
                     "- Modern iklim verileri: Şehrin günümüzdeki iklim durumu ve gelecekteki olası değişimler.\n"
                     "- Bölgesel iklim modelleri: Bölgedeki sıcaklık ve yağış değişimlerini simüle eden veriler.\n"
                     "- Çevresel değişimlerin doğal yapıya etkileri: Bitki örtüsü ve toprak üzerindeki etkiler.\n\n"
-
                     "- Önemli tarihi olaylar\n"
-                    "- Bitki örtüsü\n\n"
-                    "Bilgileri başlıklar, madde işaretleri ve bir müze rehberi gibi ve uygun yerlerde emoji kullanarak kısa ve etkileyici bir şekilde sun. Markdown formatını kullan."
+                    "Bilgileri başlıklar, bir müze rehberi gibi ve uygun yerlerde emoji kullanarak kısa ve dinlendirici bir şekilde sun. Markdown formatını kullan."
                 )
             },
             {"role": "user", "content": f"{city} hakkında bilgi ver."},

@@ -4,3 +4,4 @@ DateTime==5.5
 pandas==2.2.2
 python-dotenv==1.0.0
 langchain==0.3.9
+langchain-community==0.3.9
